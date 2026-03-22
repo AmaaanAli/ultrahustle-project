@@ -15,11 +15,8 @@ function App() {
         <ContractsHeader />
 
         <div className="px-8 pb-12">
-          {/* Main Dashboard Wrapper Card */}
           <div className="bg-card-bg/50 backdrop-blur-sm border border-card-border rounded-3xl p-6 md:p-8 flex flex-col gap-6 shadow-sm">
             <Controls mode={contractMode} setMode={setContractMode} />
-            
-            {/* Divider or spacing if needed - using gap-6 from parent */}
             
             <div className="w-full">
               <ContractCard mode={contractMode} />
